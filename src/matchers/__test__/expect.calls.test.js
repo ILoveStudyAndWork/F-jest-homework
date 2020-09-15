@@ -13,6 +13,8 @@ test("TODO 11", () => {
   expect(mockCallback).toHaveBeenCalledTimes(2);
   expect(mockCallback).toHaveBeenCalledWith(1);
   expect(mockCallback).toHaveBeenCalledWith(2);
+  expect(mockCallback).toReturnWith(43);
+  expect(mockCallback).toReturnWith(44);
 });
 
 test("TODO 12", () => {

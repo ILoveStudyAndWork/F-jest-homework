@@ -26,9 +26,9 @@ describe("expect.equal", () => {
   });
   test("TODO 7", () => {
     // TODO 7: to replace "matcher"
-    expect(false).not.toBeTruthy();
-    expect(0).not.toBeNaN();
-    expect("").not.toBeNull();
+    expect(false).toBeFalsy();
+    expect(0).toBeFalsy();
+    expect("").toBeFalsy();
   });
   test("TODO 8", () => {
     // TODO 8: to replace "matcher"
